@@ -1,0 +1,21 @@
+method warning, check parameter acording to fitting: R^2 to small
+ Results for lin_lin representation: 
+Coefficient of Determination R^2,0.0
+Akaike Information Criterion AIC,-2.29352284
+Bayesian Information Criterion BIC,-3.3347255
+Coefficient of Correlation r,nan
+The Residual Sum of Squares RSS,0.12887395
+
+Absorbance=D+((A-D)/(1+(Conc/C)^B)^E)
+D: 50.0
+A: 0.78636667
+B: 50.0
+C: 150.0
+E: 25.0
+
+The range of parameter changes used:
+D: [0.0 ;100.0] 
+A: [0.0 ;50.0] 
+B: [0.0 ;100.0] 
+C: [0.0 ;300.0] 
+E: [0.0 ;50.0] 

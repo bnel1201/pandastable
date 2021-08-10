@@ -1,0 +1,57 @@
+<html>
+<body>
+        
+      <div class="firstpage">
+         <p class="firstframe"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Project:  {proj_name}<br><br></p>
+         <p class="firstframe1">Date:  {exdate}<br><br>Performed by:  {uname}<br><br>Approved by:<br><br>Test No.:  {tno}<br><br>on:  {timestamp1}<br><br>on:<br><br></p>
+      <div class="elem">
+          
+      <h3>Sample pipetting scheme</h3>
+         <p>{spec_html}</p>
+      </div>
+          <div class="elem">
+              <h3>Multiwell plate map</h3>
+                 <p>{data_map}</p>
+              <h3>Initial measurement results</h3>
+                 <p>{data_in}</p>          
+              <h3>Calibration standards</h3>
+                 <p>{cal_st}</p>
+           </div>
+
+{sb_approx}
+
+           <div class="elem"> 
+                 <h3>Model diagnostics</h3> 
+                <p style="font-size:12px"> The Residual Sum of Squares <b>RSS</b>    = {rss}<br> 
+                                            Coefficient of Determination <b>R<sup>2</sup></b>   = {rsq}<br>
+                                            Akaike Information Criterion <b>AIC</b>   = {AIC}<br>
+                                            Bayesian Information Criterion <b>BIC</b> = {BIC}<br>
+                                            Coefficient of Correlation <b>r</b>       = {rcc}<br>                 
+                                            Time of calculatin                 = {cal_time} [s]<br> 
+           </div> 
+
+      <div class="elem">
+           <h3>Plots</h3>
+              <img src="{plot0}" alt="resulting plot">
+              <br>
+              <img src="{plot1}" alt="resulting plot">
+      </div>
+      <div class="elem">
+            <h3>Plots</h3>
+              <img src="{plot2}" alt="resulting plot">
+              <br>
+              <img src="{plot3}" alt="resulting plot">
+       </div>
+      <div class="elem">
+              <h2 class="calcres">Calculation results</h2>
+              <p>{table1}</p>
+       </div>
+      <div class="elem">
+              <h2>BLQ samples</h2>
+              <p>{table2}</p>
+       </div>
+          
+</body>
+
+
+</html>

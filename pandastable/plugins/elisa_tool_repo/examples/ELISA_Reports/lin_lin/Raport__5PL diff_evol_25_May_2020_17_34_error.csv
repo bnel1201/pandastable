@@ -1,0 +1,21 @@
+method error, parameter not found, equal bound value
+ Results for lin_lin representation: 
+Coefficient of Determination R^2,0.99988319
+Akaike Information Criterion AIC,-56.59595519
+Bayesian Information Criterion BIC,-57.63715784
+Coefficient of Correlation r,0.99994159
+The Residual Sum of Squares RSS,1.512e-05
+
+Absorbance=D+((A-D)/(1+(Conc/C)^B)^E)
+D: 1.40034537
+A: 0.0
+B: 0.84323241
+C: 0.10229818
+E: 1.02423358
+
+The range of parameter changes used:
+D: [0.0 ;10.0] 
+A: [0.0 ;5.0] 
+B: [0.0 ;10.0] 
+C: [0.0 ;30.0] 
+E: [0.0 ;5.0] 
