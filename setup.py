@@ -27,7 +27,8 @@ setup(
                       'numpy',
                       'scipy',
                       'RegscorePy==1.1',
-                      'scikit_learn'],
+                      'scikit_learn',
+                      'ipython'],
     entry_points = { 'gui_scripts': [
                      'dataexplore = pandastable.app:main']},
     classifiers = ['Operating System :: OS Independent',
