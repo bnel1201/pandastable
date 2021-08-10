@@ -22,7 +22,12 @@ setup(
                       'pandas>=0.24',
                       'numexpr>=2.4',
                       'xlrd>=0.9',
-                      'future'],
+                      'future',
+                      'WeasyPrint==0.42.3',
+                      'numpy',
+                      'scipy',
+                      'RegscorePy==1.1',
+                      'scikit_learn'],
     entry_points = { 'gui_scripts': [
                      'dataexplore = pandastable.app:main']},
     classifiers = ['Operating System :: OS Independent',
