@@ -13,3 +13,5 @@ The ELISA tool prints out reports using weasyprint, which for [Mac has special i
 1. Now install the necessary packages: `brew install python pango libffi`
 
 ## Needs more documentation
+
+In particular these are changes to be made as a pull request to <https://gitlab.com/physiolutionpl/elisa_tool>
