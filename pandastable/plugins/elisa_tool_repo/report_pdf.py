@@ -16,7 +16,7 @@ __maintainer__ = "Grzegorz Banach"
 __email__ = "g.banach@physiolution.pl"
 __status__ = "Production"
 
-# from weasyprint import HTML
+from weasyprint import HTML
 import datetime
 import pandas as pd
 import textwrap

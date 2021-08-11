@@ -1,0 +1,13 @@
+Validation parameters: 
+  Noise = 0.000000, Number points = 40 
+
+Model parameters: 
+  Absorbance=D+((A-D)/(1+(Conc/C)^B)^E) 
+A=0.001000, B=4.500000, C=0.500000, D=1.000000, E=2.400000 
+
+Model diagnostics: 
+  The Residual Sum of Squares RSS    = 0.000000; 
+  Coefficient of Determination R^2   = 1.000000; 
+  Akaike Information Criterion AIC   = -1997.700410; 
+  Bayesian Information Criterion BIC = -1989.256013; 
+  Coefficient of Correlation r       = 1.000000; 

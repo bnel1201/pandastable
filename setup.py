@@ -29,7 +29,9 @@ setup(
                       'RegscorePy==1.1',
                       'scikit_learn',
                       'ipython',
-                      'openpyxl'],
+                      'openpyxl',
+                      'weasyprint',
+                      'jinja2'],
     entry_points = { 'gui_scripts': [
                      'dataexplore = pandastable.app:main']},
     classifiers = ['Operating System :: OS Independent',
