@@ -28,7 +28,8 @@ setup(
                       'scipy',
                       'RegscorePy==1.1',
                       'scikit_learn',
-                      'ipython'],
+                      'ipython',
+                      'openpyxl'],
     entry_points = { 'gui_scripts': [
                      'dataexplore = pandastable.app:main']},
     classifiers = ['Operating System :: OS Independent',
